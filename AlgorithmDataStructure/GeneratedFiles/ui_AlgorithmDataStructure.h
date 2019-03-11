@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'AlgorithmDataStructure.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.2
+** Created by: Qt User Interface Compiler version 5.11.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,10 +10,7 @@
 #define UI_ALGORITHMDATASTRUCTURE_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
@@ -55,7 +52,7 @@ public:
 
     void retranslateUi(QMainWindow *AlgorithmDataStructureClass)
     {
-        AlgorithmDataStructureClass->setWindowTitle(QApplication::translate("AlgorithmDataStructureClass", "AlgorithmDataStructure", Q_NULLPTR));
+        AlgorithmDataStructureClass->setWindowTitle(QApplication::translate("AlgorithmDataStructureClass", "AlgorithmDataStructure", nullptr));
     } // retranslateUi
 
 };
