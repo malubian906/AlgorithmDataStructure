@@ -1,5 +1,5 @@
 #pragma once
-
+#include <QDebug>
 #include <QtWidgets/QMainWindow>
 #include "ui_AlgorithmDataStructure.h"
 
