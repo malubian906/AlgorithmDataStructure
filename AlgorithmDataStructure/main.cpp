@@ -4,6 +4,7 @@
 
 int main(int argc, char *argv[])                
 {
+	// push Test
 	int *array = new int[5]{ 0,1,2,3,4 };
 	try
 	{
