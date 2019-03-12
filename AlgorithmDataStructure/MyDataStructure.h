@@ -35,3 +35,8 @@ void ChangeLength1D(T*a, int oldLength, int newLength)
 	delete[] a;
 	a = temp;
 };
+class A
+{
+
+
+};
