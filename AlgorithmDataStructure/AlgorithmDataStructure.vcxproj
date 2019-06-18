@@ -225,6 +225,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="LinkStack.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MyDataStructure.cpp" />
   </ItemGroup>
@@ -270,6 +271,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_AlgorithmDataStructure.h" />
+    <ClInclude Include="LinkStack.h" />
     <ClInclude Include="MyDataStructure.h" />
   </ItemGroup>
   <ItemGroup>

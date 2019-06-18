@@ -59,7 +59,10 @@
       <Filter>Generated Files</Filter>
     </ClCompile>
     <ClCompile Include="MyDataStructure.cpp">
-      <Filter>MyDataStructure</Filter>
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkStack.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -79,6 +82,9 @@
     </ClInclude>
     <ClInclude Include="MyDataStructure.h">
       <Filter>MyDataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkStack.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
