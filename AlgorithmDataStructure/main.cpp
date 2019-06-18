@@ -1,11 +1,16 @@
 #include "AlgorithmDataStructure.h"
 #include "MyDataStructure.h"
 #include <QtWidgets/QApplication>
+union MyUnion
+{
+	int a;
+	double b;
+};
+
+
 
 int main(int argc, char *argv[])                
 {
-    // 好难用啊，我擦擦擦 ，疯了：banch push
-	//  2019 06 18  学到了
 	int *array = new int[5]{ 0,1,2,3,4 };
 	try
 	{
@@ -15,5 +20,9 @@ int main(int argc, char *argv[])
 	{
 		qDebug() << state;
 	}
+	//
+	MyUnion tu;
+	tu.a = 100;
+	tu.b=1.3234;
 	return 0;
 }

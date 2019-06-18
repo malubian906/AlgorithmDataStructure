@@ -1,6 +1,6 @@
 #include "LinkStack.h"
 
-bool StackEmpty(LinkStack *S)
+bool LinkStackSpace::StackEmpty(LinkStack *S)
 {
 	bool isflag = false;
 	if (S->count <= 0)
@@ -10,7 +10,7 @@ bool StackEmpty(LinkStack *S)
 	return isflag;
 }
 
-bool Push(LinkStack *s, int e)
+bool  LinkStackSpace::Push(LinkStack *s, int e)
 {
 	LinkStackPtr *p = new LinkStackPtr;
 	(*p)->data = e;
@@ -21,7 +21,7 @@ bool Push(LinkStack *s, int e)
 	return true;
 }
 
-bool Pop(LinkStack *S,int &e)
+bool  LinkStackSpace::Pop(LinkStack *S,int &e)
 {
 	if(StackEmpty(S))
 	return false;

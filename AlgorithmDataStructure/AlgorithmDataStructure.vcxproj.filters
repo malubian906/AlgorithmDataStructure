@@ -64,6 +64,9 @@
     <ClCompile Include="LinkStack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="AlgorithmDataStructure.h">
@@ -84,6 +87,9 @@
       <Filter>MyDataStructure</Filter>
     </ClInclude>
     <ClInclude Include="LinkStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MQueue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

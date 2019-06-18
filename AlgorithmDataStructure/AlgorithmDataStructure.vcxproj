@@ -227,6 +227,7 @@
     </ClCompile>
     <ClCompile Include="LinkStack.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MQueue.cpp" />
     <ClCompile Include="MyDataStructure.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -272,6 +273,7 @@
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_AlgorithmDataStructure.h" />
     <ClInclude Include="LinkStack.h" />
+    <ClInclude Include="MQueue.h" />
     <ClInclude Include="MyDataStructure.h" />
   </ItemGroup>
   <ItemGroup>
