@@ -20,9 +20,9 @@ int main(int argc, char *argv[])
 	{
 		qDebug() << state;
 	}
-	//
-	MyUnion tu;
-	tu.a = 100;
-	tu.b=1.3234;
+
+	QString str_1 = "goodgoogle";
+	QString str_2 = "google";
+	Index(str_1,str_2,3);
 	return 0;
 }
